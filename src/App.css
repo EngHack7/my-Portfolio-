@@ -1,3 +1,27 @@
+
+@media (max-width: 1024px){
+.container .bio-container .bio {
+    padding-right: 50px;
+}
+}
+
+@media (max-width: 730px){
+.container .bio-container .bio {
+    width: 100%;
+}}
+
+@media (max-width: 480px){
+.container .bio-container .bio p.text {
+    font-size: 15px;
+}}
+
+@media (max-width: 730px){
+.container .photo {
+    width: 50vw;
+    height: 50vw;
+}}
+
+
 .App {
   text-align: center;
 }

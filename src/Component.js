@@ -14,7 +14,7 @@ function Component() {
 
     const myExperiance1 = "1 -  C# : develpment Application in (Console and Windows Application ) \n"+
     "like my graduation project ('CFG generator tools')  \n";
-    const myExperiance2  = "2 - NodeJs : depelpment 2 (Backend) website just for training when i was trainer with WTM companey by 'Express framework' and 'MongoDB' and some knowledge in NestJs frame work.";
+    const myExperiance2  = "2 - NodeJs : development  (Backend) website just for training when i was trainer with WTM companey by 'Express framework' and 'MongoDB' , create real time chat website by using socketio and react  ,and some knowledge in NestJs frame work.";
     const myExperiance3 = "3 - React : I am not one of the people who love design, coordination etc ... but I had to learn (specifically) to be aware of what is happening on both sides (Back/front)end) " ;
     return(
         <>

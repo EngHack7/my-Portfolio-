@@ -1,183 +1,185 @@
-
 @media (max-width: 1024px){
-.container .bio-container .bio {
-    padding-right: 50px;
-}
-}
-
-@media (max-width: 730px){
-.container .bio-container .bio {
-    width: 100%;
-}}
-
-@media (max-width: 480px){
-.container .bio-container .bio p.text {
-    font-size: 15px;
-}}
-
-@media (max-width: 730px){
-.container .photo {
-    width: 50vw;
-    height: 50vw;
-}}
-
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+  .container .bio-container .bio {
+      padding-right: 50px;
+  }
+  }
+  
+  @media (max-width: 730px){
+  .container .bio-container .bio {
+      width: 100%;padding-left: 0px;
+  }}
+  
+  @media (max-width: 480px){
+  .container .bio-container .bio p.text {
+    padding-left: 0px;
+      font-size: 15px;
+  }}
+  
+  @media (max-width: 730px){
+  .container .photo {
+      width: 50vw;
+      height: 50vw;
+  }}
+  
+  
+  .App {
+    text-align: center;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-  .ul_nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:cadetblue;
-}
-
-.li_nav {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: gray;
-  color: white;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-/* Control the left side */
-.left {
-  left: 0;
   
-}
-
-
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  min-height: 0;
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
   
-}
-.container .connect {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-.container .bio-container {
-  height: 100vh;
-  width: 50vw;
-  overflow: auto;
-}
-.container .bio-container .bio {
-  height: auto;
-  padding: 50px;
-  padding-right: 100px;
-}
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+    .ul_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cadetblue;
+  }
+  
+  .li_nav {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    
+  }
+  
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 0;
+    
+  }
+  .container .connect {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .container .bio-container {
+    height: 100vh;
+    width: 50vw;
+    overflow: auto;
+  }
+  .container .bio-container .bio {
+    height: auto;
+    padding: 50px;
+    padding-right: 100px;
+  }
+  
+  .container .photo {
+    width: 50vw;
+    height: 100vh;
+    background: gray url(../src/image/myImage.jpg) 50%;
+    background-size: cover;
+  }
+  
+  .bkPhoto{
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+    background: whitesmoke url(../src/image/1_70TbJZmNz3Oj1NaH6_3Qpg.png) 50%;
+  }
+  
+  .title{
+    font-size: xx-large;
+    font-weight: 600;
+      color: aqua;
+      background: linear-gradient(45deg, black, transparent);
+  }
+  
+  .bio_font{
+    
 
-.container .photo {
-  width: 50vw;
-  height: 100vh;
-  background: gray url(../src/image/myImage.jpg) 50%;
-  background-size: cover;
-}
-
-.bkPhoto{
-  background-size: cover;
-  width: 50vw;
-  height: 100vh;
-  background: whitesmoke url(../src/image/1_70TbJZmNz3Oj1NaH6_3Qpg.png) 50%;
-}
-
-.title{
-  font-size: xx-large;
-  font-weight: 600;
-    color: aqua;
-    background: linear-gradient(45deg, black, transparent);
-}
-
-.bio_font{
-  color: honeydew;
-  font-weight: 500;
-  font-family: cursive;
-  border-style: solid;
-  border-left-color: #0000;
-  border-right-color: #0000;
-  border-top-color: #0000;
-  padding: 10px;
-}
-textarea {
-  width: 50%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-}
-
-.form_design{
-  position: relative;
-}
+    color: honeydew;
+    font-weight: 500;
+    font-family: cursive;
+    border-style: solid;
+    border-left-color: #0000;
+    border-right-color: #0000;
+    border-top-color: #0000;
+    padding: 10px;
+  }
+  textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  
+  .form_design{
+    position: relative;
+  }

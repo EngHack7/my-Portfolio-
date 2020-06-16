@@ -8,8 +8,7 @@ function counter() {
     return ++count;
 }
 const Style = {color: "honeydew",
-    fontWeight: 500,
-    fontFamily: "cursive"};
+    fontWeight: 500};
 
 function List(props) {
    

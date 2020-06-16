@@ -1,11 +1,10 @@
 import React from 'react'
-import image from "./image/myImage.jpg";
-import Pic from "./Pic.js"
+
 import List from './listThings.js';
 import ListItems from './ListItems.js'
 function Component() {
     const skillItems = ListItems.map(Item => <List key={Item.id}  Ihave={Item} />);
-    console.log(skillItems);
+   ;
     const title  =  '"Hello ,"';
     const a = '"My Experiance ,"';
     const info =
